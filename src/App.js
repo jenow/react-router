@@ -12,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <h1>Routing Example</h1>
+      <Link to={`/`}>Go to Page 1</Link>
       <Link to={`/page2`}>Go to Page 2</Link>
       <Routes>
         <Route path="/page2" element={<Page2 />} />
